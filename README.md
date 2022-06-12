@@ -17,7 +17,7 @@
 <ol start = "1">
     <li>Quais estados que mais venderam no último mês ?</li>
     <li>Quais as 5 Marcas de carro mais vendidas no último mês ?</li>
-    <li>Quias as 5 lojasque mais venderam carro no último mês ?</li>
+    <li>Quais as 5 lojas que mais venderam carro no último mês ?</li>
     <li>Quantas vezes por dia da semana o site foi visitado no último mês ?</li>
   </ol>
 
@@ -63,5 +63,45 @@ Retorno:
 Dashboard:
 
 ![image](https://user-images.githubusercontent.com/73189777/173210221-81e913db-ee00-4a43-a280-b1737b18b760.png)
+
+<h3> 2.3. Quais as 5 lojas que mais venderam carro no último mês ?</h3>
+
+<p> Aqui foi feita uma query, similar as anteriores, selcionando na tabela sales.funnel o numero de vendas, e utilizando a função agregada COUNT para fazer o calculo. Para chegar a coluna store_name foi utilizado o LEFT JOIN passanto pela tabela sales.store, utilizando a chave estrangeira store_id. O filtro de data doi feito pelas funções WHERE e BETWEEN, o resultado retorno as informações agrupadas por loja, e os 5 primeiros resultado.</p>
+
+Query:
+
+![image](https://user-images.githubusercontent.com/73189777/173210321-71e31c8d-c8f1-40e2-96fc-e0f888f76879.png)
+
+
+
+Retorno:
+
+![image](https://user-images.githubusercontent.com/73189777/173210331-98a8edf0-c3d1-4811-a6a9-b1e64a81503a.png)
+
+ 
+Dashboard:
+
+![image](https://user-images.githubusercontent.com/73189777/173210340-4970a402-70bc-43ae-9435-7674285e2363.png)
+
+
+<h3>Quantas vezes por dia da semana o site foi visitado no último mês ?</h3>
+
+
+
+Query:
+
+![image](https://user-images.githubusercontent.com/73189777/173210578-5c7d5b82-f63a-4c77-969d-f767bc1e8653.png)
+
+
+Retorno:
+
+![image](https://user-images.githubusercontent.com/73189777/173210605-f8c8cfaa-7578-42cf-b069-1756a431f0fa.png)
+
+
+Dashboard:
+
+![image](https://user-images.githubusercontent.com/73189777/173210623-a1fc3207-39fe-4882-b178-f1f040c14eac.png)
+
+
 
 Repositório criado com intuido de aprensentar conhecimentos basicos na linguagem SQL. 
