@@ -1,4 +1,4 @@
-<h1>Análise de dados ulizando PostgreSQL</h1>
+<h1>Análise de dados utilizando PostgreSQL</h1>
 
 <h2><ol><li>Introdução</li></ol></h2>
 
