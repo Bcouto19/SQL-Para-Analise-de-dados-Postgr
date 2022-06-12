@@ -86,7 +86,7 @@ Dashboard:
 
 <h3>2.4. Quantas vezes por dia da semana o site foi visitado no último mês ?</h3>
 
-<p>Nessa query, Precisei selecinar e extrair o dia da semana, para isso eu utilizei a função extract e utilzei a expressão dow que me retorna um valo de 0 a 6 que representa um dia da semana, onde 0 = Domigo.Precisei também cria uma nova coluna "dia da semana" que me retorna um valor string,nesse caso utilizei o case when. O resultado está agrupado e ordenado pelo dia da semana.</p>
+<p>Nessa query, Precisei selecionar e extrair o dia da semana, para isso eu utilizei a função extract e utilzei a expressão dow que me retorna um valo de 0 a 6 que representa um dia da semana, onde o valor inicial que é  0 = Domigo.Precisei também cria uma nova coluna "dia da semana" que me retorna um valor string,nesse caso utilizei o case when. O resultado está agrupado e ordenado pelo dia da semana.</p>
 
 Query:
 
@@ -102,6 +102,11 @@ Dashboard:
 
 ![image](https://user-images.githubusercontent.com/73189777/173210623-a1fc3207-39fe-4882-b178-f1f040c14eac.png)
 
+
+
+<h3>Considerações Finais</h3>
+
+<p>Após a feita a análise para responder as perguntas propsotas, podemos concluir que a Fiat, é a campear de vendas de carros, a loja que mais venda carros dentro do e-commerce automotivo é a "KIYOKO CILEIDI JERY LTDA, o estado de São Paulo é o estado que mais se destacou no mês de agosto em relação ao número de vendas. Descobrimos também que as Segundas-Feiras do mês de agosto foi o dia da semana que mais recebeu visitas no e-commerce.</p>
 
 
 Repositório criado com intuido de aprensentar conhecimentos basicos na linguagem SQL. 
