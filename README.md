@@ -84,9 +84,9 @@ Dashboard:
 ![image](https://user-images.githubusercontent.com/73189777/173210340-4970a402-70bc-43ae-9435-7674285e2363.png)
 
 
-<h3>Quantas vezes por dia da semana o site foi visitado no último mês ?</h3>
+<h3>2.4. Quantas vezes por dia da semana o site foi visitado no último mês ?</h3>
 
-
+<p>Nessa query, Precisei selecinar e extrair o dia da semana, para isso eu utilizei a função extract e utilzei a expressão dow que me retorna um valo de 0 a 6 que representa um dia da semana, onde 0 = Domigo.Precisei também cria uma nova coluna "dia da semana" que me retorna um valor string,nesse caso utilizei o case when. O resultado está agrupado e ordenado pelo dia da semana.</p>
 
 Query:
 
