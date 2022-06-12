@@ -45,6 +45,23 @@ Dashboard:
 ![image](https://user-images.githubusercontent.com/73189777/173210045-3a239fd1-7ba4-4fa3-9c64-d2bd55fb246a.png)
 
 
+<h3>2.2. Quais as 5 marcas de carro mais vendidas no ultimo mês ?</h3>
 
+
+<p>Essa query é bem paracida com a query do questionamento acima. Aqui foi necessario filtrar as datas de vendas na tabela sales.funnel, relacionado com a marcas de carro, onde utilizei o LEFT JOIN passando pela tabela PRODUCTS e chegando na coluna BRAND, para isso utilizei a chave estrangeira product_id. Utilizei a função agregada COUNT para calcular o número de vendas. Utilizei também a função WHERE, e BETEWEEN para filtrar a data entre os dias 2021-08-01 e 2021-08-31. O resultado retorna os 5 primeiro resultado, agrupado pela marca.</p>
+
+
+Query:
+
+![image](https://user-images.githubusercontent.com/73189777/173210191-eaf0205b-faf4-40d5-8054-3ba1835f31f6.png)
+
+Retorno:
+
+![image](https://user-images.githubusercontent.com/73189777/173210204-082610b7-1d91-4e5d-9e17-411c95649548.png)
+
+
+Dashboard:
+
+![image](https://user-images.githubusercontent.com/73189777/173210221-81e913db-ee00-4a43-a280-b1737b18b760.png)
 
 Repositório criado com intuido de aprensentar conhecimentos basicos na linguagem SQL. 
