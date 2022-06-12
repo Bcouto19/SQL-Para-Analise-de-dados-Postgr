@@ -27,4 +27,24 @@
 <h2> Respondedo as perguntas sobre o e-commerce automotivo</h2>
 
 <h3>2.1. Quais estados que mais venderam no último mês ?</h3>
+
+<p>Para responder essa pergunta foi nessecessario escrever uma query que filtrasse na tabela sales.funnel os datas de vendas, para chegar a ter a coluna STATE utilizei o LEFT JOIN passanto pela tabela CUSTOMERS e utilizando a chave estrangeira customer_i. Utilizei a função agregada COUNT para calcular o número de vendas, como eu quero saber o número de vendas do ultimo mês( que nesse caso é agosto)
+Utilizei também a função WHERE, e BETEWEEN para filtrar a data entre os dias 2021-08-01 e 2021-08-31. A query também agrupa o resultado por pais e estado, ordenado pelo numero de vendas descrecente. Utilei também a função Limit para tarzer os 5 primeriros resultados.</p>
+
+Query:
+
+![image](https://user-images.githubusercontent.com/73189777/173209930-22da9d38-d699-4e93-8a21-02a906f8c090.png)
+
+Retorno:
+
+![image](https://user-images.githubusercontent.com/73189777/173210052-2351a20a-64ad-4ccb-b164-7110941ec842.png)
+
+
+Dashboard:
+
+![image](https://user-images.githubusercontent.com/73189777/173210045-3a239fd1-7ba4-4fa3-9c64-d2bd55fb246a.png)
+
+
+
+
 Repositório criado com intuido de aprensentar conhecimentos basicos na linguagem SQL. 
