@@ -104,9 +104,9 @@ Dashboard:
 
 
 
-<h3>Considerações Finais</h3>
+<h3>3 Considerações Finais</h3>
 
-<p>Após a feita a análise para responder as perguntas propsotas, podemos concluir que a Fiat, é a campear de vendas de carros, a loja que mais venda carros dentro do e-commerce automotivo é a "KIYOKO CILEIDI JERY LTDA, o estado de São Paulo é o estado que mais se destacou no mês de agosto em relação ao número de vendas. Descobrimos também que as Segundas-Feiras do mês de agosto foi o dia da semana que mais recebeu visitas no e-commerce.</p>
+<p>Após a feita a análise para responder as perguntas propsotas, podemos concluir que a marca Fiat é a campear de vendas de carros, a loja que mais vendeu carros dentro do e-commerce automotivo no ultimo mês(Agosto) foi a loja: "KIYOKO CILEIDI JERY LTDA, o estado de São Paulo é o estado que mais se destacou no mês de agosto em relação ao número de vendas. Descobrimos também que as Segundas-Feiras do mês de agosto foi o dia da semana que mais recebeu visitas no e-commerce.</p>
 
 
 Repositório criado com intuido de aprensentar conhecimentos basicos na linguagem SQL. 
