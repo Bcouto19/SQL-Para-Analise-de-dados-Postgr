@@ -24,7 +24,7 @@
 <ul>
   <li>Este projeto foi criado, com intuito de colocar em pratica os conhecimentos básicos desenvolvidos no CURSO: SQL para Análise de dados, da Udemy.Uma plataforma EAD, que oferece cursos de diversas aréas. Neste curso, ao final de cada módulo foi proposto desafios onde os alunos aplicavam os conceitos apreendidos no modulo. No final do curso também foi proposto um desafio de criar querys para criação de dashboard dos principais indicadores de desempenho com os principais drives de vendas do mês. O curso oferece a "Solução" dos projetos guiados pelo instrutor do curso, como estou iniciando sentir a nessecidade em alguns momentos de recorrer a solução apresentada pelo instrutor.  </li>
 </ul>
-<h2> Respondedo as perguntas sobre o e-commerce automotivo</h2>
+<h2>2. Respondedo as perguntas sobre o e-commerce automotivo</h2>
 
 <h3>2.1. Quais estados que mais venderam no último mês ?</h3>
 
