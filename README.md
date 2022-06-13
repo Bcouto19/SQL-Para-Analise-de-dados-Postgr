@@ -16,7 +16,7 @@
 </ul>
 <ol start = "1">
     <li>Quais estados que mais venderam no último mês ?</li>
-    <li>Quais as 5 Marcas de carro mais vendidas no último mês ?</li>
+    <li>Quais as 5 marcas de carros mais vendidas no último mês ?</li>
     <li>Quais as 5 lojas que mais venderam carro no último mês ?</li>
     <li>Quantas vezes por dia da semana o site foi visitado no último mês ?</li>
   </ol>
