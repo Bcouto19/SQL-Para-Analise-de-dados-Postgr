@@ -28,8 +28,8 @@
 
 <h3>2.1. Quais estados que mais venderam no último mês ?</h3>
 
-<p>Para responder essa pergunta foi nessecessario escrever uma query que filtrasse na tabela sales.funnel os datas de vendas, para chegar a ter a coluna STATE utilizei o LEFT JOIN passanto pela tabela CUSTOMERS e utilizando a chave estrangeira customer_id. Utilizei a função agregada COUNT para calcular o número de vendas, como eu quero saber o número de vendas do ultimo mês( que nesse caso é agosto)
-Utilizei também a função WHERE, e BETEWEEN para filtrar a data entre os dias 2021-08-01 e 2021-08-31. A query também agrupa o resultado por pais e estado, ordenado pelo numero de vendas descrecente. Utilei também a função Limit para tarzer os 5 primeriros resultados.</p>
+<p>Para responder essa pergunta foi nessecessario escrever uma query que filtrasse na tabela sales.funnel as datas de vendas, para chegar a ter a coluna STATE utilizei o LEFT JOIN passanto pela tabela CUSTOMERS e utilizando a chave estrangeira customer_id. Utilizei a função agregada COUNT para calcular o número de vendas, como eu quero saber o número de vendas do último mês( que nesse caso é agosto)
+Utilizei também a função WHERE, e BETEWEEN para filtrar a data entre os dias 2021-08-01 e 2021-08-31. A query também agrupa o resultado por país e estado, ordenado pelo número de vendas em ordem decrescente. Utilei também a função  LIMIT para trAzer os 5 primeriros resultados.</p>
 
 Query:
 
@@ -48,7 +48,7 @@ Dashboard:
 <h3>2.2. Quais as 5 marcas de carro mais vendidas no ultimo mês ?</h3>
 
 
-<p>Essa query é bem paracida com a query do questionamento acima. Aqui foi necessario filtrar as datas de vendas na tabela sales.funnel, relacionado com a marcas de carro, onde utilizei o LEFT JOIN passando pela tabela PRODUCTS e chegando na coluna BRAND, para isso utilizei a chave estrangeira product_id. Utilizei a função agregada COUNT para calcular o número de vendas. Utilizei também a função WHERE, e BETEWEEN para filtrar a data entre os dias 2021-08-01 e 2021-08-31. O resultado retorna os 5 primeiro resultado, agrupado pela marca.</p>
+<p>Essa query é bem parecida com a query do questionamento acima. Aqui foi necessario filtrar as datas de vendas na tabela sales.funnel, relacionando com as marcas dos carros, onde utilizei o LEFT JOIN passando pela tabela PRODUCTS e chegando na coluna BRAND, para isso utilizei a chave estrangeira product_id. Utilizei a função agregada COUNT para calcular o número de vendas. Utilizei também a função WHERE, e BETEWEEN para filtrar a data entre os dias 2021-08-01 e 2021-08-31. A query retorna os 5 primeiro resultado, agrupado pela marca.</p>
 
 
 Query:
@@ -66,7 +66,7 @@ Dashboard:
 
 <h3> 2.3. Quais as 5 lojas que mais venderam carro no último mês ?</h3>
 
-<p> Aqui foi feita uma query, similar as anteriores, selcionando na tabela sales.funnel o numero de vendas, e utilizando a função agregada COUNT para fazer o calculo. Para chegar a coluna store_name foi utilizado o LEFT JOIN passanto pela tabela sales.store, utilizando a chave estrangeira store_id. O filtro de data doi feito pelas funções WHERE e BETWEEN, o resultado retorno as informações agrupadas por loja, e os 5 primeiros resultado.</p>
+<p> Aqui foi feita uma query, similar as anteriores, selcionando na tabela sales.funnel o número de vendas, e utilizando a função agregada COUNT para fazer o calculo. Para chegar a coluna store_name foi utilizado o LEFT JOIN passanto pela tabela sales.store, utilizando a chave estrangeira store_id. O filtro de data doi feito pelas funções WHERE e BETWEEN, o resultado retorno as informações agrupadas por loja, e os 5 primeiros resultado.</p>
 
 Query:
 
@@ -86,7 +86,7 @@ Dashboard:
 
 <h3>2.4. Quantas vezes por dia da semana o site foi visitado no último mês ?</h3>
 
-<p>Nessa query, Precisei selecionar e extrair o dia da semana, para isso eu utilizei a função extract e utilzei a expressão dow que me retorna um valo de 0 a 6 que representa um dia da semana, onde o valor inicial que é  0 = Domigo.Precisei também cria uma nova coluna "dia da semana" que me retorna um valor string,nesse caso utilizei o case when. O resultado está agrupado e ordenado pelo dia da semana.</p>
+<p>Nessa query, Precisei selecionar e extrair o dia da semana, para isso eu utilizei a função extract e utulizei a expressão DOW que me retorna um valor de 0 a 6 que representa um dia da semana, onde o valor inicial que é  0 = Domigo. Precisei também cria uma nova coluna "dia da semana" que me retorna um valor string, nesse caso utilizei o case when. O resultado está agrupado e ordenado pelo dia da semana.</p>
 
 Query:
 
@@ -106,7 +106,7 @@ Dashboard:
 
 <h3>3 Considerações Finais</h3>
 
-<p>Após a feita a análise para responder as perguntas propsotas, podemos concluir que a marca Fiat é a campear de vendas de carros, a loja que mais vendeu carros dentro do e-commerce automotivo no ultimo mês(Agosto) foi a loja: "KIYOKO CILEIDI JERY LTDA, o estado de São Paulo é o estado que mais se destacou no mês de agosto em relação ao número de vendas. Descobrimos também que as Segundas-Feiras do mês de agosto foi o dia da semana que mais recebeu visitas no e-commerce.</p>
+<p>Após  feita a análise para responder as perguntas propostas, podemos concluir que a marca Fiat é a campeã de vendas de carros, a loja que mais vendeu carros dentro do e-commerce automotivo no último mês(Agosto) foi a loja: "KIYOKO CILEIDI JERY LTDA, o estado de São Paulo é o estado que mais se destacou no mês de agosto em relação ao número de vendas. Descobrimos também que as Segundas-Feiras do mês de agosto foi o dia da semana que mais recebeu visitas no e-commerce.</p>
 
 
 Repositório criado com intuido de aprensentar conhecimentos basicos na linguagem SQL. 
